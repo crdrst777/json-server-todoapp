@@ -50,7 +50,7 @@ function App() {
         />
         <button onClick={handleSubmit}>추가하기</button>
         <br />
-        <h2>할 일 목록</h2>
+        <h2>할일 목록</h2>
         <ul>
           {todoList.map((todo) => (
             <div key={todo.id}>
